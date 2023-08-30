@@ -411,3 +411,92 @@ while count < 5:
 ```
 This `while` loop initializes a `count` variable to 0 and repeatedly prints its value as long as `count` is less than 5. It increments `count` by 1 in each iteration.
 
+### 1. `break` Statement:
+
+#### The `break` statement is used to exit a loop prematurely when a certain condition is met. It allows you to terminate the loop before it has completed all iterations.
+
+**Syntax:**
+```python
+for variable in iterable:
+    # Code
+    if some_condition:
+        break
+```
+
+**Example:**
+```python
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+```
+
+**Solution:**
+```
+0
+1
+2
+3
+4
+```
+
+In this example, the `break` statement is encountered when `i` is equal to 5. It exits the loop immediately, and the remaining iterations are skipped.
+
+### 2. `continue` Statement:
+
+#### The `continue` statement is used to skip the current iteration of a loop and continue to the next iteration. It allows you to bypass the rest of the code within the loop for the current iteration.
+
+**Syntax:**
+```python
+for variable in iterable:
+    # Code
+    if some_condition:
+        continue
+    # More code
+```
+
+**Example:**
+```python
+for i in range(5):
+    if i == 2:
+        continue
+    print(i)
+```
+
+**Solution:**
+```
+0
+1
+3
+4
+```
+
+In this example, when `i` is equal to 2, the `continue` statement is encountered. It skips the `print(i)` statement for that iteration and proceeds to the next iteration.
+
+### 3. `pass` Statement:
+
+#### The `pass` statement is a placeholder that does nothing. It is used when syntactically a statement is required, but no action is desired or required. It is often used as a placeholder for future code.
+
+**Syntax:**
+```python
+if some_condition:
+    pass
+```
+
+**Example:**
+```python
+for i in range(3):
+    if i == 1:
+        pass
+    else:
+        print(i)
+```
+
+**Solution:**
+```
+0
+2
+```
+
+In this example, when `i` is equal to 1, the `pass` statement is encountered, and it does nothing. For other values of `i`, it prints the value as specified in the `else` block.
+
