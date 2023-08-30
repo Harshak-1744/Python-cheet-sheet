@@ -12,33 +12,36 @@ age = 30
 
 ## Input Statement:
 
+#### The `input()` function is used to accept user input from the keyboard. It reads a line of text from the user and returns it as a string.
+
+**Syntax:**
+```python
+variable = input("Prompt message: ")
+```
+
+**Example:**
 ```python
 name = input("Enter your name: ")
 print("Hello, " + name + "!")
 ```
 
-**Output:** 
+In this example, the `input()` function is used to get the user's name, and it's stored in the `name` variable.
+
+## Output Statement:
+
+#### The `print()` function is used to display output to the console. You can pass one or more values to `print()`, and it will convert them to strings and display them.
+
+**Syntax:**
+```python
+print(value1, value2, ...)
 ```
-Enter your name: Alice!
-Hello, Alice!
-```
 
-In this example, the user is prompted to enter their name, and then the program responds with a greeting using the entered name.
-
-### Output Statement:
-
+**Example:**
 ```python
 print("Hello, World!")
 ```
 
-**Output:**
-```
-Hello, World!
-```
-
-This is a simple example of using the `print()` function to display a message.
-
-## Output with String Formatting:
+You can also use string formatting to display variables within a string using placeholders:
 
 ```python
 name = "Alice"
@@ -46,27 +49,13 @@ age = 30
 print("My name is {} and I am {} years old.".format(name, age))
 ```
 
-**Output:**
-```
-My name is Alice and I am 30 years old.
-```
-
-In this example, string formatting is used to insert the values of `name` and `age` into the string.
-
-### Output with f-strings:
+Or, using f-strings (available in Python 3.6 and later):
 
 ```python
 name = "Alice"
 age = 30
 print(f"My name is {name} and I am {age} years old.")
 ```
-
-**Output:**
-```
-My name is Alice and I am 30 years old.
-```
-
-This example uses f-strings to directly embed the variables `name` and `age` into the string for a more concise and readable format.
 
 ## Data Types
 
