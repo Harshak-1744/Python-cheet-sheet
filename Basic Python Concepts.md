@@ -10,6 +10,64 @@ name = "John"
 age = 30
 ```
 
+## Input Statement:
+
+```python
+name = input("Enter your name: ")
+print("Hello, " + name + "!")
+```
+
+**Output:** 
+```
+Enter your name: Alice!
+Hello, Alice!
+```
+
+In this example, the user is prompted to enter their name, and then the program responds with a greeting using the entered name.
+
+### Output Statement:
+
+```python
+print("Hello, World!")
+```
+
+**Output:**
+```
+Hello, World!
+```
+
+This is a simple example of using the `print()` function to display a message.
+
+## Output with String Formatting:
+
+```python
+name = "Alice"
+age = 30
+print("My name is {} and I am {} years old.".format(name, age))
+```
+
+**Output:**
+```
+My name is Alice and I am 30 years old.
+```
+
+In this example, string formatting is used to insert the values of `name` and `age` into the string.
+
+### Output with f-strings:
+
+```python
+name = "Alice"
+age = 30
+print(f"My name is {name} and I am {age} years old.")
+```
+
+**Output:**
+```
+My name is Alice and I am 30 years old.
+```
+
+This example uses f-strings to directly embed the variables `name` and `age` into the string for a more concise and readable format.
+
 ## Data Types
 
 In Python, data types can be broadly categorized into three main groups: primitive data types, collection data types, and user-defined data types.
