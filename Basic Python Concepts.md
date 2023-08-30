@@ -24,7 +24,10 @@ variable = input("Prompt message: ")
 name = input("Enter your name: ")
 print("Hello, " + name + "!")
 ```
-
+```
+Enter your name: Alice!
+Hello, Alice!
+```
 In this example, the `input()` function is used to get the user's name, and it's stored in the `name` variable.
 
 ## Output Statement:
@@ -40,7 +43,9 @@ print(value1, value2, ...)
 ```python
 print("Hello, World!")
 ```
-
+```Output:
+Hello, World!
+```
 You can also use string formatting to display variables within a string using placeholders:
 
 ```python
@@ -56,7 +61,9 @@ name = "Alice"
 age = 30
 print(f"My name is {name} and I am {age} years old.")
 ```
-
+```Output:
+My name is Alice and I am 30 years old.
+```
 ## Data Types
 
 In Python, data types can be broadly categorized into three main groups: primitive data types, collection data types, and user-defined data types.
