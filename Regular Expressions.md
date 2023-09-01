@@ -211,3 +211,40 @@ Matches: ['aa']
 | ()          | Group letters together so you can treat them as one. It's like putting items in a box. |
 | {}          | Tells you exactly how many times a letter or group should appear. It's like counting how many candies you want. |
 | OR          |	Helps you choose between two things. It's like picking your favorite ice cream flavor. |
+
+
+# Understanding Regular Expression Functions
+
+Regular expressions (regex) are like special tools for working with words and text. They help you do cool things with words, like finding them, changing them, and more!
+
+## Find a Word in a Sentence (search)
+
+Imagine you have a big storybook, and you want to find a specific word, like "cat," in the story. You read the book and stop when you find the word "cat." That's what `search` does.
+
+## Check the Start of a Word (match)
+
+Suppose you have a list of words, and you want to check if a word starts with a certain letter or letters, like "apple" or "banana." `match` helps you do that. If you see "apple" at the beginning of the word, you know it's a match.
+
+## Find Many Words (findall)
+
+Imagine you have a bunch of books, and you want to find all the words that are the same as "apple." `findall` helps you find all those words, and you can count them.
+
+## Find and List Words (finditer)
+
+This is similar to `findall`, but instead of giving you all the words at once, it gives you one word at a time. It's like finding one treasure after another in a treasure hunt.
+
+## Change a Word (substitute - sub)
+
+Suppose you have a sentence with a word you don't like, and you want to change it to something else. `sub` helps you do that. It's like changing "rainy" to "sunny" to make the day better.
+
+These functions are like magic tools for words. They help you explore stories, find hidden treasures, and even make sentences better!
+
+
+| Function                     | Description                                                                                                                                                  |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Find a Word in a Sentence** (`search`) | Imagine you have a big storybook, and you want to find a specific word, like "cat," in the story. You read the book and stop when you find the word "cat." That's what `search` does. |
+| **Check the Start of a Word** (`match`) | Suppose you have a list of words, and you want to check if a word starts with a certain letter or letters, like "apple" or "banana." `match` helps you do that. If you see "apple" at the beginning of the word, you know it's a match. |
+| **Find Many Words** (`findall`) | Imagine you have a bunch of books, and you want to find all the words that are the same as "apple." `findall` helps you find all those words, and you can count them. |
+| **Find and List Words** (`finditer`) | This is similar to `findall`, but instead of giving you all the words at once, it gives you one word at a time. It's like finding one treasure after another in a treasure hunt. |
+| **Change a Word** (`substitute - sub`) | Suppose you have a sentence with a word you don't like, and you want to change it to something else. `sub` helps you do that. It's like changing "rainy" to "sunny" to make the day better. |
+
