@@ -201,3 +201,13 @@ print("Matches:", matches)
 ```
 Matches: ['aa']
 ```
+| Metacharacter | Description |
+| ------------- | ----------- |
+| .           | Matches any letter or symbol, except a new line. It's like a detective's magnifying glass looking for anything. |
+| *           | Matches the preceding letter or group many times or not at all. It's like saying "any amount, even zero." |
+| +           | Matches the preceding letter or group at least once or more. It's like saying "at least one or more." |
+| ?           | Matches the preceding letter or group once or not at all. It's like saying "Either one or zero." |
+| []          | Helps you find a specific letter from a group of letters. It's like a treasure map with clues. |
+| ()          | Group letters together so you can treat them as one. It's like putting items in a box. |
+| {}          | Tells you exactly how many times a letter or group should appear. It's like counting how many candies you want. |
+| '|'         | Helps you choose between two things. It's like picking your favorite ice cream flavor.  | 
