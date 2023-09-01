@@ -210,4 +210,4 @@ Matches: ['aa']
 | []          | Helps you find a specific letter from a group of letters. It's like a treasure map with clues. |
 | ()          | Group letters together so you can treat them as one. It's like putting items in a box. |
 | {}          | Tells you exactly how many times a letter or group should appear. It's like counting how many candies you want. |
-| '|'         | Helps you choose between two things. It's like picking your favorite ice cream flavor.  | 
+| OR          |	Helps you choose between two things. It's like picking your favorite ice cream flavor. |
