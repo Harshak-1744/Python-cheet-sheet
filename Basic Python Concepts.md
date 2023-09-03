@@ -1,5 +1,9 @@
 # Python Baisc Concepts
 
+## What is python?  
+
+Python is a high-level, interpreted, and general-purpose programming language, known for its Simplicity Created by Guido Van Russom 
+
 ## Variables
 
 In Python, variables are used to store data values. These values can be of various types, such as numbers, text, or more complex structures.
