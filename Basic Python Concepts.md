@@ -6,6 +6,8 @@ Python is a high-level, interpreted, and general-purpose programming language, k
 
 ### Features:- 
 * Interpreter = You don't need to compile the you do not need to compile the Programme before running it.
+* Multi-Paradigm = Supports Both Functional and Object - Oriented Programming.
+* Open Source
 
 ## Variables
 
