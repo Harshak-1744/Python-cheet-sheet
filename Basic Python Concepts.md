@@ -2,7 +2,10 @@
 
 ## What is python?  
 
-Python is a high-level, interpreted, and general-purpose programming language, known for its Simplicity Created by Guido Van Russom 
+Python is a high-level, interpreted, and general-purpose programming language, known for its Simplicity Created by Guido Van Russom.
+
+### Features:- 
+* Interpreter = You don't need to compile the you do not need to compile the Programme before running it.
 
 ## Variables
 
