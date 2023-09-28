@@ -82,7 +82,7 @@ When you run this code:
 
 Python provides a convenient way to open and work with files using the `with` statement. It ensures that the file is properly closed when you're done:
 
-```python
+```
 # Using 'with' to open a file
 with open("sample.txt", "r") as file:
     content = file.read()
