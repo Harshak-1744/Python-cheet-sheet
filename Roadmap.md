@@ -132,4 +132,4 @@ This comprehensive roadmap outlines the key topics and skills for becoming a pro
 
 Remember that this roadmap provides a comprehensive overview, and you can adapt it to your learning goals and career aspirations. The key to success is consistent practice, building projects, and staying engaged with the Python developer community.
 
-Best of luck on your journey to becoming an accomplished Python developer!
+Best of luck on your journey to becoming an accomplished Python developer!  
