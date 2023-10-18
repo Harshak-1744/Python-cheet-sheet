@@ -71,4 +71,4 @@ If you have suggestions for improving this roadmap or want to contribute by addi
 - [GitHub Learning Lab - Python](https://lab.github.com/githubtraining/introduction-to-python)
 - [Awesome Python](https://github.com/vinta/awesome-python)
 
-Happy learning! 🐍
+Happy learning! 🐍 
