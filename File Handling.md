@@ -1,5 +1,5 @@
 # File Handling in Python
-
+ 
 File handling in Python allows you to work with files, such as reading from them, writing to them, and modifying their content. In this guide, we'll cover the basics with easy-to-understand examples.
 
 ## Opening a File
