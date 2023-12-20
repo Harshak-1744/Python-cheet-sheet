@@ -95,3 +95,21 @@ With this code:
 - The "sample.txt" file is opened in read mode within the `with` block.
 - The content is read and printed.
 - The file is automatically closed when the block is exited.
+
+
+# Example 
+```
+# Example Python snippet for writing to a file
+
+# List of strings to be written to file
+lines_to_write = ["Hello, world!", "This is an example.", "Writing to a file in Python."]
+
+# Open a file in write mode
+with open('output.txt', 'w') as file:
+    # Write each string in the list to the file
+    for line in lines_to_write:
+        file.write(line + '\n')
+
+# File is automatically closed after the 'with' block
+```
+
