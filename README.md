@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-If you're new to Python, here are some initial steps to get started:
+If you're new to Python, here are some initial steps to get started: 
 
 1. **Install Python**: Ensure you have Python installed on your system. You can download it from the [official Python website](https://www.python.org/downloads/).
 
