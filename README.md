@@ -1,5 +1,5 @@
 # Python Roadmap for Freshers
-
+ 
 ## Getting Started 
 
 If you're new to Python, here are some initial steps to get started: 
